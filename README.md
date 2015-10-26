@@ -10,3 +10,7 @@ Explanation, Analysis and Implementation of String Algorithms
 4. Knuth Morris Pratt String Matching Algorithm
 
 5. Next Lexicographic Permutation of a String
+
+6. Z Algorithm
+
+7. Longest Common Subsequence - Resursive
