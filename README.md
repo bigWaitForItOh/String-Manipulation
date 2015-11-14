@@ -14,3 +14,5 @@ Explanation, Analysis and Implementation of String Algorithms
 6. Z Algorithm
 
 7. Longest Common Subsequence - Resursive
+
+8. Longest Prefix Matching
