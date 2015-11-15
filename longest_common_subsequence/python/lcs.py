@@ -1,14 +1,12 @@
 ####################################################################################################
 #A Rescursive Implementation of the Longest Common Subsequence Problem
 ####################################################################################################
-def lcs (a, b):
-	if (not a or not b):
-		return ('');
-	if (a [-1] == b [-1]):
-		return (lcs (a [ : -1], b [ : -1]) + a [-1]);
-
-	first, second = lcs (a [ : -1], b), lcs (a, b [: -1]);
-	return (first if len (first) > len (second) else second);
+def lcs (x, y):
+	if (not (x and y):
+		return (0);
+	if (x [-1] == y [-1]):
+		return (1 + lcs (x [ : -1], y [ : -1]));
+	return (max (lcs (x [ : -1], y), lcs (x, y [ : -1])));
 
 a, b = input (), input ();
 #SAMPLE CALL TO THE FUNCTION
