@@ -1,7 +1,7 @@
 # String-Manipulation
 Explanation, Analysis and Implementation of String Algorithms
 
-1. Longest Common Subsequence - Dynamic Programming
+1. Longest Common Subsequence
 
 2. Naive String Matching Algorithm
 
@@ -13,6 +13,4 @@ Explanation, Analysis and Implementation of String Algorithms
 
 6. Z Algorithm
 
-7. Longest Common Subsequence - Resursive
-
-8. Longest Prefix Matching
+7. Longest Prefix Matching
