@@ -31,20 +31,21 @@ def construct_tracker (substring):
 
 def kmp (string, substring):
 	tracker = construct_tracker (substring);
-	j =0;
+	positions, j = [], 0;
 
 	for i in range (len (string)):
 		if (string [i] == substring [j]):
 			if (j == len (substring) - 1):
-				return (i - len (substring) + 1);
-			j += 1;
+				positions.append (i - len (substring) + 1);
+			else:
+				j += 1;
 		else:
 			j = tracker [j - 1];
 
-	return (-1);
+	return (positions);
 
 if (__name__ == '__main__'):
 	#string, substring = input (), input ();
 	#print (kmp (string, substring));
 
-	print (kmp ('abcxabcdabxabcdabcdabcy', 'abcdabcy'));
+	print (kmp ('abcxabcdabxabcdabcdabcyiuhsiuhduiahdubhbuuabcdabcysbhbh', 'abcdabcy'));
