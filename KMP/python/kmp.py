@@ -1,6 +1,6 @@
 ##############################################################################################################################
 #Implementation of Knuth-Morris-Pratt Substring Search Algorithm
-#Returns the index of the first substring matched in the main string.
+#Returns indices of all occurances of the substring in the main string.
 #Complexities:
 #	Time:
 #		O (n) - construction of tracker, n is the length of substring
